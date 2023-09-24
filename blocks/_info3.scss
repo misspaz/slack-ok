@@ -1,0 +1,184 @@
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+
+.equipo {
+    background-color: #f4ede4;
+    height: 700px;
+  
+    h2 {
+      font-family: "Lato", sans-serif;
+      font-size: 30px;
+      padding-left: 20px;
+      padding-top: 10px;
+    }
+  
+    p {
+      font-family: "Lato", sans-serif;
+      padding-left: 20px;
+      padding-top: 10px;
+      span {
+        color: #35b4e6;
+      }
+    }
+  }
+  
+  .trabajar {
+      background-color: #f4ede4;
+      height: 700px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+  
+      img{
+          
+          width: 80vw;
+          
+          flex-direction: column;
+      }
+    
+      h2 {
+        font-family: "Lato", sans-serif;
+        font-size: 30px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-right: 30px;
+        
+      }
+    
+      p {
+        font-family: "Lato", sans-serif;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-right: 20px;
+        
+        span {
+          color: #35b4e6;
+        }
+      }
+    }
+  
+  
+    .herramientas {
+      background-color: #f4ede4;
+      height: 700px;
+    
+      h2 {
+        font-family: "Lato", sans-serif;
+        font-size: 30px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-right: 30px;
+        
+      }
+    
+      p {
+        font-family: "Lato", sans-serif;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-right: 30px;
+        span {
+          color: #35b4e6;
+        }
+      }
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .equipo {
+        background-color: #f4ede4;
+        height: 600px;
+
+        img{
+              
+          width: 30vw;
+          
+          flex-direction: column;
+      }
+      
+        h2 {
+          font-family: "Lato", sans-serif;
+          font-size: 30px;
+          padding-left: 20px;
+          padding-top: 10px;
+        }
+      
+        p {
+          font-family: "Lato", sans-serif;
+          padding-left: 20px;
+          padding-top: 10px;
+          span {
+            color: #35b4e6;
+          }
+        }
+      }
+      
+      .trabajar {
+          background-color: #f4ede4;
+          height: 500px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+      
+          img{
+              
+              width: 30vw;
+              
+              flex-direction: column;
+          }
+        
+          h2 {
+            font-family: "Lato", sans-serif;
+            font-size: 30px;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-right: 30px;
+            
+          }
+        
+          p {
+            font-family: "Lato", sans-serif;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-right: 20px;
+            
+            span {
+              color: #35b4e6;
+            }
+          }
+        }
+      
+      
+        .herramientas {
+          background-color: #f4ede4;
+          height: 700px;
+
+          img{
+              
+            width: 30vw;
+            
+            flex-direction: column;
+        }
+        
+          h2 {
+            font-family: "Lato", sans-serif;
+            font-size: 30px;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-right: 30px;
+            
+          }
+        
+          p {
+            font-family: "Lato", sans-serif;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-right: 30px;
+            span {
+              color: #35b4e6;
+            }
+          }
+        }
+    
+    }
+

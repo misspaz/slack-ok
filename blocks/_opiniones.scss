@@ -1,0 +1,119 @@
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .opiniones {
+
+    width: 100vw;
+    video {
+        border-radius: 0 250px 250px 0;
+        width: 100vw;
+    }
+
+    .italic {
+      font-family: "Lato", sans-serif;
+      font-style: italic;
+      padding-left: 20px;
+      padding-top: 10px;
+      padding-right: 30px;
+    }
+
+    h5 {
+      font-family: "Lato", sans-serif;
+
+      padding-left: 20px;
+      padding-top: 10px;
+      padding-right: 30px;
+    }
+    h6 {
+      font-family: "Lato", sans-serif;
+
+      padding-left: 20px;
+
+      padding-right: 30px;
+    }
+
+    .frase-flecha {
+      font-family: "Lato", sans-serif;
+      display: flex;
+      padding-left: 20px;
+      font-style: normal;
+      padding-top: 10px;
+    }
+    span {
+      color: #35b4e6;
+    }
+
+    img {
+      width: 10%;
+      height: 23px;
+      display: flex;
+    }
+    .asterisco {
+      font-family: "Lato", sans-serif;
+      font-size: 10px;
+      padding-left: 20px;
+      padding-top: 10px;
+      padding-right: 30px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .opiniones {
+    width: 100vw;
+    
+
+    video {
+    border-radius: 0 250px 250px 0;
+    width: 100vw;
+    }
+
+    .italic {
+      font-family: "Lato", sans-serif;
+      font-style: italic;
+      padding-left: 20px;
+      padding-top: 10px;
+      padding-right: 30px;
+      font-size: 25px;
+    }
+
+    h5 {
+      font-family: "Lato", sans-serif;
+      font-size: 25px;
+      padding-left: 20px;
+      padding-top: 10px;
+      padding-right: 30px;
+    }
+    h6 {
+      font-family: "Lato", sans-serif;
+
+      padding-left: 20px;
+
+      padding-right: 30px;
+    }
+
+    .frase-flecha {
+      font-family: "Lato", sans-serif;
+      display: flex;
+      padding-left: 20px;
+      font-style: normal;
+      padding-top: 10px;
+    }
+    span {
+      color: #35b4e6;
+    }
+
+    img {
+      width: 5%;
+      height: 5%;
+      display: flex;
+    }
+    .asterisco {
+      font-family: "Lato", sans-serif;
+      font-size: 10px;
+      padding-left: 20px;
+      padding-top: 10px;
+      padding-right: 30px;
+      margin-bottom: 20px;
+    }
+  }
+}

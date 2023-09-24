@@ -1,0 +1,881 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  border-style: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .slackheader {
+    background-color: #541554;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  .slackheader nav {
+    position: static;
+    width: 100vw;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .slackheader nav .logo {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 30vw;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .slackheader nav .menu-hamburguesa {
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+  .slackheader .titles {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .slackheader .titles span {
+    color: #ecb22e;
+  }
+  .slackheader .titles h1 {
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .slackheader .titles p {
+    font-family: "Lato", sans-serif;
+    color: white;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+  }
+  .slackheader .titles .button-correo {
+    height: 50px;
+    width: 95%;
+    background-color: #ffffff;
+    border: 1px solid #7c207c;
+    color: #7c207c;
+    font-family: "Lato", sans-serif;
+    font-weight: 550;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .slackheader .titles .button-google {
+    background-color: #4285f4;
+    height: 50px;
+    width: 95%;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 550;
+    border-radius: 4px;
+    font-size: 15px;
+  }
+  .slackheader .titles #video-slack {
+    position: relative;
+    top: -80px;
+  }
+}
+@media (min-width: 768px) {
+  .slackheader {
+    background-color: #541554;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .slackheader nav {
+    position: static;
+    width: 100vw;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .slackheader nav .logo {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 12vw;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .slackheader nav .menu-hamburguesa {
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+  .slackheader .titles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 45%;
+    flex-direction: column;
+  }
+  .slackheader .titles span {
+    color: #ecb22e;
+  }
+  .slackheader .titles h1 {
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .slackheader .titles p {
+    font-family: "Lato", sans-serif;
+    color: white;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+  }
+  .slackheader .titles .button-correo {
+    height: 50px;
+    width: 95%;
+    background-color: #ffffff;
+    border: 1px solid #7c207c;
+    color: #7c207c;
+    font-family: "Lato", sans-serif;
+    font-weight: 550;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .slackheader .titles .button-google {
+    background-color: #4285f4;
+    height: 50px;
+    width: 95%;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 550;
+    border-radius: 4px;
+    font-size: 15px;
+  }
+  .slackheader .titles #video-slack {
+    margin-left: 20px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .logo-section {
+    background-color: #f4ede4;
+  }
+  .logo-section p {
+    font-family: "Lato", sans-serif;
+    color: black;
+    text-align: center;
+    font-weight: 495;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+  }
+  .logo-section .logos-empresas {
+    background-color: #f4ede4;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+  }
+  .logo-section .logos-empresas img {
+    width: 30vw;
+    padding: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .logo-section {
+    background-color: #f4ede4;
+  }
+  .logo-section p {
+    font-family: "Lato", sans-serif;
+    color: black;
+    text-align: center;
+    font-weight: 495;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+  }
+  .logo-section .logos-empresas {
+    background-color: #f4ede4;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+  }
+  .logo-section img {
+    width: 15vw;
+    padding: 15px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .equipo {
+    background-color: #f4ede4;
+    height: 700px;
+  }
+  .equipo h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  .equipo p {
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  .equipo p span {
+    color: #35b4e6;
+  }
+  .trabajar {
+    background-color: #f4ede4;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .trabajar img {
+    width: 80vw;
+    flex-direction: column;
+  }
+  .trabajar h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 30px;
+  }
+  .trabajar p {
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+  }
+  .trabajar p span {
+    color: #35b4e6;
+  }
+  .herramientas {
+    background-color: #f4ede4;
+    height: 700px;
+  }
+  .herramientas h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 30px;
+  }
+  .herramientas p {
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 30px;
+  }
+  .herramientas p span {
+    color: #35b4e6;
+  }
+}
+@media (min-width: 768px) {
+  .equipo {
+    background-color: #f4ede4;
+    height: 600px;
+  }
+  .equipo img {
+    width: 30vw;
+    flex-direction: column;
+  }
+  .equipo h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  .equipo p {
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  .equipo p span {
+    color: #35b4e6;
+  }
+  .trabajar {
+    background-color: #f4ede4;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .trabajar img {
+    width: 30vw;
+    flex-direction: column;
+  }
+  .trabajar h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 30px;
+  }
+  .trabajar p {
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+  }
+  .trabajar p span {
+    color: #35b4e6;
+  }
+  .herramientas {
+    background-color: #f4ede4;
+    height: 700px;
+  }
+  .herramientas img {
+    width: 30vw;
+    flex-direction: column;
+  }
+  .herramientas h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 30px;
+  }
+  .herramientas p {
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 30px;
+  }
+  .herramientas p span {
+    color: #35b4e6;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 400px;
+  }
+  .cta h1 {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    padding: 30px;
+  }
+  .cta p {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  .cta .button1 {
+    height: 50px;
+    width: 250px;
+    background-color: #7c207c;
+    border: 1px solid #7c207c;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 550;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .cta .button2 {
+    height: 50px;
+    width: 250px;
+    background-color: #ffffff;
+    border: 1px solid #7c207c;
+    color: #7c207c;
+    font-family: "Lato", sans-serif;
+    font-weight: 550;
+    border-radius: 4px;
+  }
+  .porcentajes {
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    flex-wrap: nowrap;
+    align-content: center;
+  }
+  .porcentajes div {
+    padding-bottom: 20px;
+  }
+  .porcentajes div h2 {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    color: #611F69;
+    font-size: 50px;
+  }
+  .porcentajes div p {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+@media (min-width: 768px) {
+  .cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 300px;
+  }
+  .cta h1 {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    padding: 30px;
+  }
+  .cta p {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  .cta .button1 {
+    height: 50px;
+    width: 250px;
+    background-color: #7c207c;
+    border: 1px solid #7c207c;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 550;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .cta .button2 {
+    height: 50px;
+    width: 250px;
+    background-color: #ffffff;
+    border: 1px solid #7c207c;
+    color: #7c207c;
+    font-family: "Lato", sans-serif;
+    font-weight: 550;
+    border-radius: 4px;
+  }
+  .porcentajes {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    flex-wrap: nowrap;
+    align-content: center;
+  }
+  .porcentajes div {
+    padding-bottom: 20px;
+  }
+  .porcentajes div h2 {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    color: #611F69;
+    font-size: 50px;
+  }
+  .porcentajes div p {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .opiniones {
+    width: 100vw;
+  }
+  .opiniones video {
+    border-radius: 0 250px 250px 0;
+    width: 100vw;
+  }
+  .opiniones .italic {
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 30px;
+  }
+  .opiniones h5 {
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 30px;
+  }
+  .opiniones h6 {
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+    padding-right: 30px;
+  }
+  .opiniones .frase-flecha {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    padding-left: 20px;
+    font-style: normal;
+    padding-top: 10px;
+  }
+  .opiniones span {
+    color: #35b4e6;
+  }
+  .opiniones img {
+    width: 10%;
+    height: 23px;
+    display: flex;
+  }
+  .opiniones .asterisco {
+    font-family: "Lato", sans-serif;
+    font-size: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .opiniones {
+    width: 100vw;
+  }
+  .opiniones video {
+    border-radius: 0 250px 250px 0;
+    width: 100vw;
+  }
+  .opiniones .italic {
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 30px;
+    font-size: 25px;
+  }
+  .opiniones h5 {
+    font-family: "Lato", sans-serif;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 30px;
+  }
+  .opiniones h6 {
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+    padding-right: 30px;
+  }
+  .opiniones .frase-flecha {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    padding-left: 20px;
+    font-style: normal;
+    padding-top: 10px;
+  }
+  .opiniones span {
+    color: #35b4e6;
+  }
+  .opiniones img {
+    width: 5%;
+    height: 5%;
+    display: flex;
+  }
+  .opiniones .asterisco {
+    font-family: "Lato", sans-serif;
+    font-size: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .plataforma {
+    background-color: #f4ede4;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .plataforma h1 {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    padding: 30px;
+  }
+  .caja-blanca {
+    background-color: white;
+    display: flex;
+    width: 250px;
+    height: 330px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .caja-blanca .foto-slack {
+    width: 210px;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .caja-blanca div h5 {
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+  }
+  .caja-blanca div h3 {
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+  }
+  .caja-blanca div h4 {
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+    color: #35b4e6;
+  }
+  .examina-flecha {
+    padding-bottom: 20px;
+    display: flex;
+  }
+  .examina-flecha div h4 {
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+    color: #35b4e6;
+    display: flex;
+  }
+  .examina-flecha .flecha {
+    display: flex;
+    width: 40px;
+    height: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .plataforma {
+    background-color: #f4ede4;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .plataforma h1 {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    padding: 30px;
+  }
+  .caja-blanca {
+    background-color: white;
+    display: flex;
+    width: 250px;
+    height: 330px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .caja-blanca .foto-slack {
+    width: 210px;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .caja-blanca div h5 {
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+  }
+  .caja-blanca div h3 {
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+  }
+  .caja-blanca div h4 {
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+    color: #35b4e6;
+  }
+  .examina-flecha {
+    padding-bottom: 20px;
+    display: flex;
+  }
+  .examina-flecha div h4 {
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+    color: #35b4e6;
+    display: flex;
+  }
+  .examina-flecha .flecha {
+    display: flex;
+    width: 40px;
+    height: 30px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .banner {
+    background-color: #4a154b;
+    height: 300px;
+    border-radius: 0 0 300px 300px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .banner h1 {
+    font-family: "Lato", sans-serif;
+    color: white;
+    text-align: center;
+    padding: 30px;
+  }
+  .banner .button1 {
+    height: 50px;
+    width: 250px;
+    background-color: #4A154B;
+    border: 1px solid white;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 550;
+    border-radius: 4px;
+  }
+  .banner .button2 {
+    height: 50px;
+    width: 250px;
+    background-color: #ffffff;
+    border: 1px solid #7c207c;
+    color: #7c207c;
+    font-family: "Lato", sans-serif;
+    font-weight: 550;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .banner {
+    background-color: #4a154b;
+    height: 300px;
+    border-radius: 0 0 1000px 1000px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .banner h1 {
+    font-family: "Lato", sans-serif;
+    color: white;
+    text-align: center;
+    padding: 30px;
+  }
+  .banner .button1 {
+    height: 50px;
+    width: 550px;
+    background-color: #4A154B;
+    border: 1px solid white;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 550;
+    border-radius: 4px;
+  }
+  .banner .button2 {
+    height: 50px;
+    width: 550px;
+    background-color: #ffffff;
+    border: 1px solid #7c207c;
+    color: #7c207c;
+    font-family: "Lato", sans-serif;
+    font-weight: 550;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .footer-slack {
+    display: flex;
+    height: 400px;
+    width: 50vw;
+    justify-content: flex-start;
+    font-family: "Lato", sans-serif;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+  }
+  .footer-slack .logo-slack {
+    width: 60px;
+    display: flex;
+    margin: 20px;
+  }
+  .footer-slack nav {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+  .footer-slack nav ul {
+    margin: 20px;
+  }
+}
+@media (min-width: 768px) {
+  footer {
+    width: 100vw;
+  }
+  .footer-slack {
+    margin-top: 30px;
+    display: flex;
+    height: 200px;
+    width: 100vw;
+    justify-content: flex-start;
+    font-family: "Lato", sans-serif;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+  }
+  .footer-slack .logo-slack {
+    width: 60px;
+    display: flex;
+    margin: 20px;
+  }
+  .footer-slack nav {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 10px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    align-content: center;
+  }
+  .footer-slack nav ul {
+    margin: 20px;
+    font-size: 15px;
+  }
+  .footer-slack nav ul li {
+    padding-top: 10px;
+  }
+}/*# sourceMappingURL=styles.css.map */
