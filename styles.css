@@ -18,14 +18,15 @@
     margin: 0 auto;
   }
   .slackheader nav {
-    position: static;
+    position: fixed;
     width: 100vw;
-    height: 10%;
+    height: 6%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: nowrap;
+    background-color: #541554;
   }
   .slackheader nav .logo {
     -o-object-fit: cover;
@@ -47,6 +48,7 @@
     justify-content: flex-start;
     align-items: center;
     margin-left: 20px;
+    margin-top: 70px;
     margin-right: 20px;
   }
   .slackheader .titles span {
@@ -88,10 +90,11 @@
     font-weight: 550;
     border-radius: 4px;
     font-size: 15px;
+    display: flex;
+    text-align: center;
   }
   .slackheader .titles #video-slack {
     position: relative;
-    top: -80px;
   }
 }
 @media (min-width: 768px) {

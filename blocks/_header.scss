@@ -8,14 +8,16 @@
     margin: 0 auto;
 
     nav {
-      position: static;
+      position: fixed;
       width: 100vw;
-      height: 10%;
+      height: 6%;
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
       flex-direction: row;
       flex-wrap: nowrap;
+      background-color: #541554;
+      
 
       .logo {
         object-fit: cover;
@@ -34,15 +36,14 @@
     }
 
     .titles {
-      
       height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
       align-items: center;
       margin-left: 20px;
+      margin-top: 70px;
       margin-right: 20px;
-      
 
       span {
         color: #ecb22e;
@@ -87,11 +88,13 @@
         font-weight: 550;
         border-radius: 4px;
         font-size: 15px;
+        display: flex;
+        text-align: center;
       }
 
       #video-slack {
         position: relative;
-        top: -80px;
+        
       }
     }
   }
@@ -103,8 +106,6 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    
-    
 
     nav {
       position: static;
@@ -133,16 +134,15 @@
     }
 
     .titles {
-       
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 20px;
-        margin-right: 20px;
-        flex-wrap: wrap;
-        align-content: flex-start;
-        width: 45%;
-        flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 20px;
+      margin-right: 20px;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      width: 45%;
+      flex-direction: column;
 
       span {
         color: #ecb22e;
@@ -191,7 +191,6 @@
 
       #video-slack {
         margin-left: 20px;
-        
       }
     }
   }
